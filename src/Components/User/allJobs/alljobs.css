@@ -1,0 +1,72 @@
+.all_main_div{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    column-gap: 30px;
+}
+.all_main_div .inner_div{
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+
+    padding: 50px 20px 20px 20px;
+}
+.all_main_div span{
+    color: #000000;
+    font-weight: 600;
+}
+  
+.eg_all_jobs .container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+
+    /* width: 500px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .eg_all_jobs h1,h4{
+    text-align: center;
+    color: #333;
+    /* margin-bottom: 20px; */
+  }
+  
+  .eg_all_jobs  ul {
+    list-style: none;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .eg_all_jobs  li {
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    transition: background-color 0.5s ease;
+  }
+  
+  .eg_all_jobs  li:hover {
+    background-color:#28B463;
+    cursor: pointer;
+    width: 100%; /* Full width on hover */
+  }
+  
+  .eg_all_jobs li:last-child {
+    border-bottom: none;
+  }
+  .eg_all_jobs .social-links{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  .eg_all_jobs .social-links i{
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #000000;
+    border: 1px solid #00000047;
+    border-radius: 5px;
+  }
+  .eg_all_jobs .social-links i:hover{
+    background-color: #28B463;
+    color: #ffffff;
+  }

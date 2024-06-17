@@ -1,0 +1,46 @@
+.apllyNow_eg_container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.apllyNow_eg_container .form-group {
+    margin-bottom: 20px;
+}
+
+
+
+.apllyNow_eg_container input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #652e2e;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.apllyNow_eg_container .required {
+    color: red;
+    font-size: 12px;
+}
+
+/* vdfsvsadbar */
+.apllyNow_eg_container .content-area {
+    padding-top: 150px;
+    display: flex;
+}
+
+.apllyNow_eg_container .content-area select.form-control {
+    width: 100%;
+    height: 45px !important;
+    border: 1px solid #a9a4a4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+}
